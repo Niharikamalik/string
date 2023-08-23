@@ -1,0 +1,20 @@
+// compare lexographically
+import java.io.*;
+
+class GFG {
+	public static void main (String[] args) {
+	    String s1 = "geeksforgeeks";
+	    String s2 = "geeks";
+	    int res = s1.compareTo(s2);
+	    if (res== 0){
+	        System.out.println("same");
+	    }
+	    if (res <0 ){
+	        System.out.println("smaller");
+	    }
+	    if(res>0){
+	        System.out.println("greater");
+	    }
+	    
+	}
+}
