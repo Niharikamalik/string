@@ -1,0 +1,15 @@
+/*package whatever //do not write package name here */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class GFG {
+	public static void main (String[] args) throws IOException {
+	    String s = "Geeks";
+	    System.out.println(s.length());
+	    System.out.println(s.charAt(2));
+	    System.out.println(s.substring(3));
+	    System.out.println(s.substring(2,5));
+	  }
+}
